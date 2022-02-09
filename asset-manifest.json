@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Data-Engineering/static/css/main.18ffb795.css",
-    "main.js": "/Data-Engineering/static/js/main.8fbed86c.js",
+    "main.js": "/Data-Engineering/static/js/main.1458bc94.js",
     "static/media/pasfoto.png": "/Data-Engineering/static/media/pasfoto.566f369408ba1e05a1b3.png",
     "static/media/pr.png": "/Data-Engineering/static/media/pr.3a507a16cda72188ddac.png",
     "static/media/team.png": "/Data-Engineering/static/media/team.111468ba17f9e4514b7c.png",
@@ -10,10 +10,10 @@
     "static/media/index.png": "/Data-Engineering/static/media/index.896a3354b494b4bfa7b2.png",
     "index.html": "/Data-Engineering/index.html",
     "main.18ffb795.css.map": "/Data-Engineering/static/css/main.18ffb795.css.map",
-    "main.8fbed86c.js.map": "/Data-Engineering/static/js/main.8fbed86c.js.map"
+    "main.1458bc94.js.map": "/Data-Engineering/static/js/main.1458bc94.js.map"
   },
   "entrypoints": [
     "static/css/main.18ffb795.css",
-    "static/js/main.8fbed86c.js"
+    "static/js/main.1458bc94.js"
   ]
 }

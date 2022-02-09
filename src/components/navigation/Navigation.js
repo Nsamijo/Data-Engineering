@@ -13,20 +13,32 @@ class Navigation extends React.Component {
             <>
                 <Navbar bg="light" expand="lg">
                     <Container>
-                        <Navbar.Brand href="/Stage">Portfolio Nathan K. Samijo</Navbar.Brand>
+                        <Navbar.Brand href="/Data-Engineering">Portfolio Nathan K. Samijo</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav variant="tabs" className="me-auto">
-                                <Nav.Link eventKey="/Leerdoelen" activeClassName="chosen">
+                                <Nav.Link eventKey="/Lectures" activeClassName="chosen">
                                     <Link
-                                        to="/Leerdoelen"
+                                        to="/Lectures"
                                         style={{
                                             color: 'inherit',
                                             textDecoration: 'inherit',
                                             display: 'contents'
                                         }}
                                     >
-                                        Leerdoelen
+                                        Lectures
+                                    </Link>
+                                </Nav.Link>
+                                <Nav.Link eventKey="/Casus" activeClassName="chosen">
+                                    <Link
+                                        to="/Casus"
+                                        style={{
+                                            color: 'inherit',
+                                            textDecoration: 'inherit',
+                                            display: 'contents'
+                                        }}
+                                    >
+                                        Casus
                                     </Link>
                                 </Nav.Link>
                                 <Nav.Link eventKey="/About" activeClassName="chosen">
@@ -49,9 +61,14 @@ class Navigation extends React.Component {
                         <Route exact path="/">
                             <Home/>
                         </Route>
-                        <Route exact path="/Leerdoelen">
+                        <Route exact path="/Lectures">
                             <Leerdoelen/>
                         </Route>
+                    <Route exact path={"Casus"}>
+                        <div>
+                            Coming soon
+                        </div>
+                    </Route>
                         <Route exact path="/About">
                             <About/>
                         </Route>
